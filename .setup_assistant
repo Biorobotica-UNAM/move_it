@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: justina_description
+    relative_path: urdf/justina.urdf
+  srdf:
+    relative_path: config/justina.srdf
+  package_settings:
+    author_name: Marco Soriano
+    author_email: marco.soriano5102@comunidad.unam.mx
+    generated_timestamp: 1775080733
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

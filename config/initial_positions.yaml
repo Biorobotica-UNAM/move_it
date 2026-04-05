@@ -1,0 +1,16 @@
+# Default initial positions for justina's ros2_control fake system
+
+initial_positions:
+  torso_joint: 0.0
+  lf_shoulder_joint: 0.0
+  ls_shoulder_joint: 0.0
+  l_arm_twist_joint: 0.35
+  l_elbow_joint: 1.55
+  l_wrist_joint: 0.0
+  l_hand_joint: 1.55
+  rf_shoulder_joint: 0.0
+  rs_shoulder_joint: 0.0
+  r_arm_twist_joint: -0.35
+  r_elbow_joint: 1.55
+  r_wrist_joint: 0.0
+  r_hand_joint: 1.55
