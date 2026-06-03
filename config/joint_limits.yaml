@@ -5,67 +5,67 @@ joint_limits:
   torso_joint:
     has_velocity_limits: true
     max_velocity: 0.075
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.05
 
   lf_shoulder_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   ls_shoulder_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   l_arm_twist_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   l_elbow_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   l_wrist_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   l_hand_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
 
   rf_shoulder_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   rs_shoulder_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   r_arm_twist_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   r_elbow_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   r_wrist_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   r_hand_joint:
     has_velocity_limits: true
     max_velocity: 0.58
-    has_acceleration_limits: false
-    max_acceleration: 0.0
+    has_acceleration_limits: true
+    max_acceleration: 0.5
