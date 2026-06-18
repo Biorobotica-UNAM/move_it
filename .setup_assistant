@@ -7,7 +7,7 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: Marco Soriano
     author_email: marco.soriano5102@comunidad.unam.mx
-    generated_timestamp: 1780456051
+    generated_timestamp: 1781818462
   control_xacro:
     command:
       - position
