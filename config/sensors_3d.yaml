@@ -1,15 +1,11 @@
-octomap_frame_id: base_link
-octomap_resolution: 0.05
-
 sensors:
-  - head_kinect_cloud
-
-head_kinect_cloud:
-  sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
-  point_cloud_topic: /hardware/camera/points
+  - default_sensor
+default_sensor:
+  filtered_cloud_topic: octomap_filtered_cloud
   max_range: 1.5
+  max_update_rate: 1.0
   padding_offset: 0.03
   padding_scale: 1.0
+  point_cloud_topic: /manipulation/camera/points_filtered
   point_subsample: 1
-  filtered_cloud_topic: octomap_filtered_cloud
-  max_update_rate: 1.0
+  sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
